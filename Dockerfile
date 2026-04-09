@@ -12,6 +12,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         apache2 \
+        ca-certificates \
         git \
         libapache2-mod-php \
         mysql-server \
